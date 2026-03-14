@@ -1,3 +1,6 @@
+// Creativity: I added additional prompts to the PromptGenerator
+// to give users more variety when writing journal entries.
+
 using System;
 
 class Program
