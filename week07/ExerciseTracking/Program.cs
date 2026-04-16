@@ -1,9 +1,12 @@
-using System;
+// Hi, the screenshot of the program output is included in this project folder. Thank you.
 
-class Program
+List<Activity> activities = new List<Activity>();
+
+activities.Add(new Running("03 Nov 2022", 30, 5.0));
+activities.Add(new Cycling("03 Nov 2022", 45, 20.0));
+activities.Add(new Swimming("03 Nov 2022", 30, 40));
+
+foreach (Activity activity in activities)
 {
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello World! This is the ExerciseTracking Project.");
-    }
+    Console.WriteLine(activity.GetSummary());
 }
