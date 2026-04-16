@@ -1,0 +1,4 @@
+1000
+SimpleGoal:Run Marathon,Finish 5k,1000,True
+EternalGoal:Read Scriptures,100,100
+ChecklistGoal:Go to Gym,gym,50,3,200,0
